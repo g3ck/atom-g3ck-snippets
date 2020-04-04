@@ -9,6 +9,9 @@
 
 A collection of code snippets for Your web projects, including code for HTML, CSS, JavaScript, jQuery, PHP and .htaccess.
 
+![atom-g3ck-snippets](https://github.com/g3ck/atom-g3ck-snippets/raw/master/header.png "PHP Backdoor")
+
+
 ## Installation
 
 [Download the package](https://github.com/g3ck/atom-g3ck-snippets/archive/master.zip "atom-g3ck-snippets Master"), unzip and copy to your `~/.atom/packages` folder
