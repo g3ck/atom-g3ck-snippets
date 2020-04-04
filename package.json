@@ -1,0 +1,40 @@
+{
+    "name": "atom-g3ck-snippets",
+    "main": "./lib/atom-g3ck-snippets",
+    "version": "3.0.1",
+    "description": "A collection of code snippets for Your web projects, including code for HTML, CSS, JavaScript, jQuery, PHP and .htaccess",
+    "license": "MIT",
+    "homepage": "https://github.com/g3ck/atom-g3ck-snippets",
+    "keywords": [
+        "webapp",
+        "snippets",
+        "php",
+        "js",
+        "html",
+        "css"
+    ],
+    "author": {
+        "name": "G3ck.com",
+        "email": "support@g3ck.com"
+    },
+    "maintainers": [
+        {
+            "name": "G3ck.com",
+            "email": "hello@g3ck.com",
+            "web": "httsp://g3ck.com"
+        }
+    ],
+    "bugs": {
+        "url": "https://github.com/g3ck/atom-g3ck-snippets/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/g3ck/atom-g3ck-snippets.git"
+    },
+    "bundleDependencies": false,
+    "dependencies": {},
+    "deprecated": false,
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    }
+}

@@ -1,0 +1,34 @@
+'.source.php':
+  'Codelab - SQL String':
+    'prefix': 'sqlStr'
+    'body': """
+    	sql::str(${1:$string})
+    """
+
+
+  'Codelab - SQL Get':
+    'prefix': 'sqlGet'
+    'body': """
+        $param = array(
+            'table' => '${1}',
+            'columns' => sql::columns('${1}'),
+            'where' => 'id = ${2})',
+            'limit' => 1
+        );
+        $projectPages = sql::get($param);
+    """
+    
+  'Codelab - Session':
+    'prefix': 'session'
+    'body': """
+    	@$_SESSION[SESSION]
+    """
+    
+  'Codelab - Session temp':
+    'prefix': 'sessionTemp'
+    'body': """
+    	@$_SESSION[SESSION]['temp']
+    """
+
+
+    

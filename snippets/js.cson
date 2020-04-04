@@ -1,0 +1,13 @@
+'.source.js':
+  'G3ck/JS - on element click ':
+    'prefix': 'onClickPure'
+    'body': """
+        document.getElementById("${1:myID}").addEventListener("click", function(event){
+          alert("Click");
+        });
+    """
+  'G3ck/JS - string replace':
+    'prefix': 'stringReplace'
+    'body': """
+        ${1:str}.replace("Microsoft", "W3Schools");
+    """

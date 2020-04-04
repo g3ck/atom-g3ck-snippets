@@ -1,0 +1,46 @@
+'.text.html.php, .text.html.basic':
+  'G3ck/HTML - input text':
+    'prefix': 'inputText'
+    'body': '<input type="text" name="${1}" id="${2}" class="${3}" value="${4}">'
+
+  'G3ck/HTML - advanced input text':
+    'prefix': 'inputTextAdvanced'
+    'body': '<input type="text" name="${1}" id="${2}" class="${3} autocomplete="off" maxlength="12" placeholder="" value="" required>'
+
+  'G3ck/HTML - include css file':
+    'prefix': 'cssFile'
+    'body': '<link rel="stylesheet" href="${1:assets/css/styles.css?v=1.0}">'
+
+  'G3ck/HTML - include js file':
+    'prefix': 'jsFile'
+    'body': '<script src="${1:assets/js/scripts.js?v=1.0}"></script>'
+
+
+  'G3ck/HTML - HTML5 code structure':
+    'prefix': 'html5Structure'
+    'body': """
+        <!doctype html>
+        <html lang="en">
+            <head>
+                <meta charset="utf-8">
+                <title>Dev Title</title>
+                <meta name="description" content="Dev Description">
+                <meta name="author" content="G3ck.com">
+                <link rel="stylesheet" href="assets/css/styles.css?v=1.0">
+            </head>
+            <body>
+                <header>
+                
+                </header>
+                
+                <section class="${1}">
+                    ${2}
+                </section>
+                
+                <footer>
+                    
+                </footer>
+                <script src="assets/js/scripts.js"></script>
+            </body>
+        </html>
+    """

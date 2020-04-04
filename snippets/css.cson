@@ -1,0 +1,91 @@
+'.source.css':
+  'G3ck/CSS - clear both after':
+    'prefix': 'afterClear'
+    'body': """
+        ${1}:after{
+           content: " ";
+           display: block;
+           height: 0;
+           clear: both;
+        }
+    """
+
+  'G3ck/CSS - full size background image':
+    'prefix': 'backgroundImage'
+    'body': """
+        background: url(bcg.png);
+        background-position:center center;
+        background-repeat: no-repeat;
+        background-attachment: unset;
+        background-size: auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    """
+
+
+  'G3ck/CSS - border radius':
+    'prefix': 'borderRadius'
+    'body': """
+        -webkit-border-radius: ${1:10}px;
+        -moz-border-radius: ${1:10}px;
+        border-radius: ${1:10}px;
+    """
+
+  'G3ck/CSS - box shadow':
+    'prefix': 'boxShadow'
+    'body': """
+        -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
+        box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
+    """
+
+
+
+  'G3ck/CSS - rgba color [black]':
+    'prefix': 'rgbaBlack'
+    'body': """
+       rgba(0,0,0,0.${1:5});
+    """
+
+  'G3ck/CSS - rgba color [white]':
+    'prefix': 'rgbaWhite'
+    'body': """
+       rgba(255,255,255,0.${1:5});
+    """
+
+
+
+  'G3ck/CSS - full screen fixed layer':
+    'prefix': 'fixedFull'
+    'body': """
+        position:fixed;
+        z-index:2;
+        background-color:${1:#365A89};
+        top:0;
+        right:0;
+        bottom:0;
+        left:0;
+        width:100%;
+        height:100%;
+    """
+
+  'G3ck/CSS - transform rotate':
+    'prefix': 'rotate'
+    'body': """
+       -ms-transform: rotate(${1:45}deg);
+       -webkit-transform: rotate(${1:45}deg);
+       transform: rotate(${1:45}deg);
+    """
+
+
+
+  'G3ck/CSS - transition effect':
+    'prefix': 'transition'
+    'body': """
+       -webkit-transition: all 0.${1:5}s;
+       -moz-transition: all 0.${1:5}s;
+       -ms-transition: all 0.${1:5}s;
+       -o-transition: all 0.${1:5}s;
+    """

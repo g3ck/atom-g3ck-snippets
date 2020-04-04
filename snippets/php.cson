@@ -1,0 +1,20 @@
+'.source.php':
+  'G3ck/PHP - print array in pre':
+    'prefix': 'printPre'
+    'body': """
+    	echo '<pre>';
+        print_r(${1:.$_GET});
+        echo '</pre>';
+    """
+  'G3ck/PHP - string replace':
+    'prefix': 'stringReplace'
+    'body': """
+    	str_replace("world","Peter",${1:"Hello_world"})
+    """
+  'G3ck/PHP - if file exists':
+    'prefix': 'fileExists'
+    'body': """
+        if (file_exists(${1:$filename}) AND is_file(${1:$filename})):
+            ${2}
+        endif;
+    """

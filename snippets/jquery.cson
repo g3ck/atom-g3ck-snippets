@@ -1,0 +1,81 @@
+'.source.js':
+
+
+  'G3ck/jQuery - hide element':
+    'prefix': 'hideElement'
+    'body': '$("${1:.element}").hide("${2:fade}", ${3:500});'
+
+
+  'G3ck/jQuery - on element click':
+    'prefix': 'onClick'
+    'body': """
+        $(document).on("click","${1:.element}",function(event) {
+            alert("Click");
+        });
+    """
+
+
+  'G3ck/jQuery - on window scroll':
+    'prefix': 'onScroll'
+    'body': """
+    	$(window).scroll(function() {
+    			var scroll = $(window).scrollTop();
+    			if (scroll > 0) {
+    				$("header").addClass("sticky");
+    			} else {
+    				$("header").removeClass("sticky");
+    			}
+    	});
+    """
+
+  'G3ck/jQuery - smooth scroll to element':
+    'prefix': 'scrollToElement'
+    'body': """
+        $("html, body").animate({
+            scrollTop: $("${1:.element}").offset().top + 100
+    	}, 1500);
+    """
+
+
+  'G3ck/jQuery - show element':
+    'prefix': 'showElement'
+    'body': '$("${1:.element}").show("${2:fade}", ${3:500});'
+    
+    
+    
+    
+    
+  'G3ck/jQuery - each loop':
+    'prefix': 'each'
+    'body': """
+        $( "li" ).each(function( index ) {
+          console.log( index + ": " + $( this ).text() );
+        });
+    """
+    
+    
+    
+  'G3ck/jQuery - ajax query':
+    'prefix': 'ajax'
+    'body': """
+        $.ajax({
+            url: "test.php",
+            type: "post",
+            data: {
+                'dataString': dataString,
+                'dataString': dataString
+            } ,
+            success: function (response) {
+                
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                console.log(textStatus, errorThrown);
+            }
+        });
+    """
+    
+    
+    
+    
+
+    
