@@ -1,18 +1,15 @@
 # atom-g3ck-snippets
 
+![](https://img.shields.io/github/v/release/g3ck/atom-g3ck-snippets?label=release)
+![](https://img.shields.io/npm/v/atom-g3ck-snippets)
+![](https://img.shields.io/github/issues/g3ck/atom-g3ck-snippets)
+![](https://img.shields.io/github/last-commit/g3ck/atom-g3ck-snippets)
+![](https://img.shields.io/github/release-date/g3ck/atom-g3ck-snippets)
+![](https://img.shields.io/npm/l/atom-g3ck-snippets)
+
 A collection of code snippets for Your web projects, including code for HTML, CSS, JavaScript, jQuery, PHP and .htaccess.
 
 ## Installation
-
-#### Git
-
-https://github.com/g3ck/atom-g3ck-snippets.git
-
-#### NMP
-
-https://www.npmjs.com/package/atom-g3ck-snippets
-
-#### Manually
 
 [Download the package](https://github.com/g3ck/atom-g3ck-snippets/archive/master.zip "atom-g3ck-snippets Master"), unzip and copy to your `~/.atom/packages` folder
     
