@@ -11,3 +11,13 @@
     'body': """
         ${1:str}.replace("Microsoft", "W3Schools");
     """
+
+  'G3ck/JS - prevent default':
+    'prefix': 'preventDefault'
+    'body': """
+        ${1:event}.preventDefault()
+    """
+  'G3ck/JS - scroll to top':
+    'prefix': 'scrollToTop'
+    'body': """
+        window.scrollTo({top: 0, behavior: 'smooth'});

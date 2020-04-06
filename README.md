@@ -52,6 +52,8 @@ A collection of code snippets for Your web projects, including code for HTML, CS
 
 * `onClickPure` - on element click
 * `stringReplace` - string replace
+* `preventDefault` - prevent default
+* `scrollToTop` - scroll to top
 
 #### PHP
 
