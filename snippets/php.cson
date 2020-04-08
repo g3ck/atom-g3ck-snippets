@@ -18,3 +18,11 @@
             ${2}
         endif;
     """
+
+  'G3ck/PHP - if string contains':
+    'prefix': 'stringContains'
+    'body': """
+        if (strpos($a, 'are') !== false):
+            ${2}
+        endif;
+    """

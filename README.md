@@ -37,6 +37,7 @@ A collection of code snippets for Your web projects, including code for HTML, CS
 * `cssFile` - include css file
 * `jsFile` - include js file
 * `html5Structure` - HTML5 code structure
+* `svgRatio` - svg preserve aspect ratio
 
 #### JQUERY
 
@@ -60,3 +61,4 @@ A collection of code snippets for Your web projects, including code for HTML, CS
 * `printPre` - print array in pre
 * `stringReplace` - string replace
 * `fileExists` - if file exists
+* `stringContains` - if string contains

@@ -44,3 +44,14 @@
             </body>
         </html>
     """
+    
+    
+
+  'G3ck/HTML - svg preserve aspect ratio':
+    'prefix': 'svgRatio'
+    'body': """
+        preserveAspectRatio="none"
+    """
+    
+    
+    
