@@ -17,6 +17,16 @@
         );
         $projectPages = sql::get($param);
     """
+
+  'Codelab - SQL Insert':
+    'prefix': 'sqlInsert'
+    'body': """
+        $param = array(
+            'alias' => 'my-name',
+            'name' => 'My Name'
+        );
+        $projectPages = sql::insert('', $param);
+    """
     
   'Codelab - Session':
     'prefix': 'session'

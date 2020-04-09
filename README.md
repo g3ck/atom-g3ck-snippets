@@ -62,3 +62,11 @@ A collection of code snippets for Your web projects, including code for HTML, CS
 * `stringReplace` - string replace
 * `fileExists` - if file exists
 * `stringContains` - if string contains
+
+#### CODELAB
+
+* `sqlStr` - SQL String
+* `sqlGet` - SQL Get
+* `sqlInsert` - SQL Insert
+* `session` - Session
+* `sessionTemp` - Session temp
