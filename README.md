@@ -48,6 +48,7 @@ A collection of code snippets for Your web projects, including code for HTML, CS
 * `showElement` - show element
 * `each` - each loop
 * `ajax` - ajax query
+* `documentReady` - document ready 
 
 #### JS
 

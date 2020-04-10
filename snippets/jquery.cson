@@ -76,6 +76,17 @@
     
     
     
+  'G3ck/jQuery - document ready':
+    'prefix': 'documentReady'
+    'body': """
+        $(document).ready(function() {
+            console.log("ready!");
+        });
+    """
+    
+
+    
+    
     
 
     
