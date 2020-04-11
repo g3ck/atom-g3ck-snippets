@@ -3,7 +3,7 @@
     'prefix': 'printPre'
     'body': """
     	echo '<pre>';
-        print_r(${1:.$_GET});
+        print_r(${1:$_GET});
         echo '</pre>';
     """
   'G3ck/PHP - string replace':
@@ -23,6 +23,15 @@
     'prefix': 'stringContains'
     'body': """
         if (strpos($a, 'are') !== false):
-            ${2}
+            ${1}
         endif;
+    """
+    
+  'G3ck/PHP - get files in folder':
+    'prefix': 'filesInFolder'
+    'body': """
+        $dirs = array_filter(glob('*'), 'is_file');
+        foreach ($dirs as $key => $value):
+            echo $key . ' = ' . $value;
+        endforeach;
     """

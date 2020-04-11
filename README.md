@@ -34,6 +34,7 @@ A collection of code snippets for Your web projects, including code for HTML, CS
 
 * `inputText` - input text
 * `inputTextAdvanced` - advanced input text
+* `inputSelect` - input select
 * `cssFile` - include css file
 * `jsFile` - include js file
 * `html5Structure` - HTML5 code structure
@@ -48,7 +49,7 @@ A collection of code snippets for Your web projects, including code for HTML, CS
 * `showElement` - show element
 * `each` - each loop
 * `ajax` - ajax query
-* `documentReady` - document ready 
+* `documentReady` - document ready
 
 #### JS
 
@@ -63,6 +64,7 @@ A collection of code snippets for Your web projects, including code for HTML, CS
 * `stringReplace` - string replace
 * `fileExists` - if file exists
 * `stringContains` - if string contains
+* `filesInFolder` - get files in folder
 
 #### CODELAB
 
