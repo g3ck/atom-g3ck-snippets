@@ -1,6 +1,11 @@
 '.source.js':
 
 
+
+  'G3ck/jQuery - thisone':
+    'prefix': 'thisone'
+    'body': 'var thisone = $(this);'
+
   'G3ck/jQuery - hide element':
     'prefix': 'hideElement'
     'body': '$("${1:.element}").hide("${2:fade}", ${3:500});'

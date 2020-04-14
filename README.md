@@ -42,6 +42,7 @@ A collection of code snippets for Your web projects, including code for HTML, CS
 
 #### JQUERY
 
+* `thisone` - thisone
 * `hideElement` - hide element
 * `onClick` - on element click
 * `onScroll` - on window scroll
