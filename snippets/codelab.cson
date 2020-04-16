@@ -40,5 +40,12 @@
     	@$_SESSION[SESSION]['temp']
     """
 
-
     
+  'Codelab - SQL Update':
+    'prefix': 'sqlUpdate'
+    'body': """
+		$update = array(
+			'active' = 1,
+		)
+		sql::update('users', 'LOWER(email) = LOWER("' .  sql::str($_POST['email']) . '")', $update);
+    """

@@ -90,7 +90,16 @@
     """
     
 
+  'G3ck/jQuery - bind':
+    'prefix': 'bind'
+    'body': """
+        $("#selector").bind("click",function(event) {
+            alert('Test');
+        });
+    """
     
+
+
     
     
 
