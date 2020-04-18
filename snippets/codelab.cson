@@ -27,25 +27,25 @@
         );
         $projectPages = sql::insert('', $param);
     """
-    
+
   'Codelab - Session':
     'prefix': 'session'
     'body': """
     	@$_SESSION[SESSION]
     """
-    
+
   'Codelab - Session temp':
     'prefix': 'sessionTemp'
     'body': """
     	@$_SESSION[SESSION]['temp']
     """
 
-    
+
   'Codelab - SQL Update':
     'prefix': 'sqlUpdate'
     'body': """
 		$update = array(
-			'active' = 1,
-		)
+			'active' => 1,
+		);
 		sql::update('users', 'LOWER(email) = LOWER("' .  sql::str($_POST['email']) . '")', $update);
     """
