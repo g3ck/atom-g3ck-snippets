@@ -26,7 +26,7 @@
             ${1}
         endif;
     """
-    
+
   'G3ck/PHP - get files in folder':
     'prefix': 'filesInFolder'
     'body': """
@@ -34,4 +34,23 @@
         foreach ($dirs as $key => $value):
             echo $key . ' = ' . $value;
         endforeach;
+    """
+
+
+
+  'G3ck/PHP - foreach':
+    'prefix': 'foreach'
+    'body': """
+        foreach ($array as $key => $value):
+            ${1}
+        endforeach;
+    """
+
+'.source.php, .text.html.php, .text.html.basic':
+  'G3ck/PHP - foreach separated':
+    'prefix': 'foreachSeparated'
+    'body': """
+        <?php foreach ($array as $key => $value): ?>
+            ${1}
+        <?php endforeach; ?>
     """
