@@ -1,0 +1,11 @@
+'.source.php':
+  'G3ck/WP - Get content by id':
+    'prefix': 'wpContentByID'
+    'body': """
+        <?php
+            $my_postid = 244;
+            $content_post = get_post($my_postid);
+            $content = $content_post->post_content;
+            echo $content;
+        ?>
+    """
