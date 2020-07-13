@@ -9,3 +9,9 @@
             echo $content;
         ?>
     """
+
+  'G3ck/WP - Do shortcode':
+    'prefix': 'wpDoShortcode'
+    'body': """
+        <?php echo do_shortcode('[SSB]');?>
+    """
