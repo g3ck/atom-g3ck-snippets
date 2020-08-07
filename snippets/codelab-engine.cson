@@ -1,0 +1,6 @@
+'.source.php':
+  'Codelab - Engine translation':
+    'prefix': 'sqlEngineTranslation'
+    'body': """
+		<?php echo engine::translation($text, 'uf'); ?>
+    """
