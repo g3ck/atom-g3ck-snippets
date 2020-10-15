@@ -37,6 +37,13 @@
     """
 
 
+  'G3ck/PHP - foreach text lines':
+    'prefix': 'foreach'
+    'body': """
+        foreach(preg_split("/((\r?\n)|(\r\n?))/", ${$subject}) as $line){
+            // do stuff with $line
+        }
+    """
 
   'G3ck/PHP - foreach':
     'prefix': 'foreach'
