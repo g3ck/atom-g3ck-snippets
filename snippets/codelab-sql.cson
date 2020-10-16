@@ -1,6 +1,6 @@
 '.source.php':
   'Codelab - SQL string':
-    'prefix': 'cl_sqlStr'
+    'prefix': 'sqlStr'
     'body': """
     	sql::str(${1:$string})
     """

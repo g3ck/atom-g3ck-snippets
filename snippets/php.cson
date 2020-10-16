@@ -38,7 +38,7 @@
 
 
   'G3ck/PHP - foreach text lines':
-    'prefix': 'foreach'
+    'prefix': 'foreachTextLines'
     'body': """
         foreach(preg_split("/((\r?\n)|(\r\n?))/", ${$subject}) as $line){
             // do stuff with $line
